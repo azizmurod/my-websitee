@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.schedule-block {
+  background-color: #F2F5FF;
+  border-radius: 20px;
+  padding: 60px 40px 60px 40px;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+  max-width: 1157px;
+  width: 100%;
+  margin-top: 200px;
+}
+
+
+.schedule-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #242424;
+  margin-top: 0;
+  font-weight: 700;   
+}
+
+
+.schedule-subtitle {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.schedule-courses {
+  display: flex;
+  gap: 20px;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+}
+
+.course {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.course-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.course-days {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 17px;
+  row-gap: 14px;
+  justify-content: center;
+}
+
+.day {
+  width: 28px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid #BDBDBD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  box-sizing: border-box; 
+  background: white;
+}
+
+.day.active {
+  background: #667EEA;
+  color: white;
+  border: none;
+}
+
+.btn{
+  width: 100px;
+  height: 50px;
+  color: black;
+  background-color: orange;
+  border-radius: 10px;
+  border: 1px solid rgb(95, 123, 199);
+  margin-top: 200px;
+  margin-left: 800px;
+  box-shadow: #667EEA;
+}
+
+.btn a {
+  color: black;
+  text-decoration: none;
+}
